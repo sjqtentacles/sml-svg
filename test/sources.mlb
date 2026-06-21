@@ -1,0 +1,10 @@
+(* Test executable basis: the SVG library (which pulls in the vendored
+ * sml-pretty printer) plus the harness and runner. *)
+$(SML_LIB)/basis/basis.mlb
+
+../src/svg.mlb
+
+harness.sml
+test.sml
+entry.sml
+main.sml
