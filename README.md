@@ -1,5 +1,7 @@
 # sml-svg
 
+[![CI](https://github.com/sjqtentacles/sml-svg/actions/workflows/ci.yml/badge.svg)](https://github.com/sjqtentacles/sml-svg/actions/workflows/ci.yml)
+
 A pure Standard ML **SVG document builder and pretty-printed serializer**.
 Describe a drawing as a tree of `el` values (`Rect`, `Circle`, `Line`, `Path`,
 `Group`, `Text`) and `Svg.toString` renders a complete, indented `<svg>`
